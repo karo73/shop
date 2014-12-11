@@ -1,0 +1,356 @@
+/* Default buttons */
+
+.btn {
+	background-color: #F5F5F5;
+	background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+	border: 1px solid #B2B2B2;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #333333;
+	cursor: pointer;
+	font-size: 1.7em;
+	outline: none;
+	padding: 4px 12px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #FFFFFF;
+	background: -webkit-linear-gradient(#CCCCCC, #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#CCCCCC, #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#CCCCCC, #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#CCCCCC, #FFFFFF); /* Standard syntax */
+}
+
+.btn:active {
+	background-color: #F5F5F5;
+	background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+}
+
+.btn-primary {
+	background-color: #006DCC;
+	background: -webkit-linear-gradient(#349ED6, #0045CC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#349ED6, #0045CC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#349ED6, #0045CC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#349ED6, #0045CC); /* Standard syntax */
+	border-color: #0062B8;
+	color: #FFFFFF;
+}
+
+.btn-primary:hover {
+	background-color: #349ED6;
+	background: -webkit-linear-gradient(#0045CC, #349ED6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#0045CC, #349ED6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#0045CC, #349ED6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#0045CC, #349ED6); /* Standard syntax */
+}
+
+.btn-primary:active {
+	background-color: #006DCC;
+	background: -webkit-linear-gradient(#349ED6, #0045CC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#349ED6, #0045CC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#349ED6, #0045CC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#349ED6, #0045CC); /* Standard syntax */
+}
+
+.btn-info {
+	background-color: #7BCCE4;
+	background: -webkit-linear-gradient(#7BCCE4, #3097B5); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#7BCCE4, #3097B5); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#7BCCE4, #3097B5); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#7BCCE4, #3097B5); /* Standard syntax */
+	border-color: #419DB8;
+	color: #FFFFFF;
+}
+
+.btn-info:hover {
+	background-color: #3097B5;
+	background: -webkit-linear-gradient(#3097B5, #7BCCE4); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#3097B5, #7BCCE4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#3097B5, #7BCCE4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#3097B5, #7BCCE4); /* Standard syntax */
+}
+
+.btn-info:active {
+	background-color: #7BCCE4;
+	background: -webkit-linear-gradient(#7BCCE4, #3097B5); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#7BCCE4, #3097B5); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#7BCCE4, #3097B5); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#7BCCE4, #3097B5); /* Standard syntax */
+}
+
+.btn-success {
+	background-color: #81CF81;
+	background: -webkit-linear-gradient(#81CF81, #52A452); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#81CF81, #52A452); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#81CF81, #52A452); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#81CF81, #52A452); /* Standard syntax */
+	border-color: #52A552;
+	color: #FFFFFF;
+}
+
+.btn-success:hover {
+	background-color: #52A452;
+	background: -webkit-linear-gradient(#52A452, #81CF81); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#52A452, #81CF81); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#52A452, #81CF81); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#52A452, #81CF81); /* Standard syntax */
+}
+
+.btn-success:active {
+	background-color: #FCC272;
+	background: -webkit-linear-gradient(#81CF81, #52A452); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#81CF81, #52A452); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#81CF81, #52A452); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#81CF81, #52A452); /* Standard syntax */
+}
+
+.btn-warning {
+	background-color: #FCC272;
+	background: -webkit-linear-gradient(#FCC272, #F89507); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FCC272, #F89507); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FCC272, #F89507); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FCC272, #F89507); /* Standard syntax */
+	border-color: #E1962D;
+	color: #FFFFFF;
+}
+
+.btn-warning:hover {
+	background-color: #F89507;
+	background: -webkit-linear-gradient(#F89507, #FCC272); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F89507, #FCC272); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#F89507, #FCC272); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#F89507, #FCC272); /* Standard syntax */
+}
+
+.btn-warning:active {
+	background-color: #FCC272;
+	background: -webkit-linear-gradient(#FCC272, #F89507); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FCC272, #F89507); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FCC272, #F89507); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FCC272, #F89507); /* Standard syntax */
+}
+
+.btn-danger {
+	background-color: #F07E7B;
+	background: -webkit-linear-gradient(#F07E7B, #BE3730); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F07E7B, #BE3730); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#F07E7B, #BE3730); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#F07E7B, #BE3730); /* Standard syntax */
+	border-color: #C44741;
+	color: #FFFFFF;
+}
+
+.btn-danger:hover {
+	background-color: #BE3730;
+	background: -webkit-linear-gradient(#BE3730, #F07E7B); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#BE3730, #F07E7B); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#BE3730, #F07E7B); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#BE3730, #F07E7B); /* Standard syntax */
+}
+
+.btn-danger:active {
+	background-color: #FCC272;
+	background: -webkit-linear-gradient(#F07E7B, #BE3730); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F07E7B, #BE3730); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#F07E7B, #BE3730); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#F07E7B, #BE3730); /* Standard syntax */
+}
+
+.btn-inverse {
+	background-color: #696969;
+	background: -webkit-linear-gradient(#696969, #292929); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#696969, #292929); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#696969, #292929); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#696969, #292929); /* Standard syntax */
+	border-color: #303030;
+	color: #FFFFFF;
+}
+
+.btn-inverse:hover {
+	background-color: #292929;
+	background: -webkit-linear-gradient(#292929, #696969); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#292929, #696969); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#292929, #696969); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#292929, #696969); /* Standard syntax */
+}
+
+.btn-inverse:active {
+	background-color: #696969;
+	background: -webkit-linear-gradient(#696969, #292929); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#696969, #292929); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#696969, #292929); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#696969, #292929); /* Standard syntax */
+}
+
+.btn-link {
+	background: none;
+	border: none;
+	color: #007FBF;
+}
+
+.btn-link:hover {
+	background: none;
+	border: none;
+	color: #005580;
+	text-decoration: underline;
+}
+
+.btn-link:active {
+	background: none;
+	border: none;
+	color: #007FBF;
+}
+
+/* End default buttons */
+
+/* Buttons size */
+
+.btn-large {
+	font-size: 2.8em;
+	padding: 8px 16px;
+}
+
+.btn-medium {
+	font-size: 2em;
+	padding: 5px 10px;
+}
+
+.btn-small {
+	font-size: 1.5em;
+	padding: 3px 6px;
+}
+
+.btn-mini {
+	font-size: 1.2em;
+	padding: 2px 4px;
+}
+
+/* End buttons size */
+
+/* Disabled buttons */
+
+.btn.disabled {
+	background-image: none !important;
+	background-color: #EFEFEF !important;
+	color: #333333 !important;
+	cursor: default;
+	opacity: 0.5;
+}
+
+.btn-primary.disabled {
+	background-color: #5A86DE !important;
+	border-color: #5A86DE;
+	color: #FFFFFF !important;
+}
+
+.btn-info.disabled {
+	background-color: #2f96b4 !important;
+	border-color: #2f96b4;
+	color: #FFFFFF !important;
+}
+
+.btn-success.disabled {
+	background-color: #51a351 !important;
+	border-color: #51a351;
+	color: #FFFFFF !important;
+}
+
+.btn-warning.disabled {
+	background-color: #f89406 !important;
+	border-color: #f89406;
+	color: #FFFFFF !important;
+}
+
+.btn-danger.disabled {
+	background-color: #bd362f !important;
+	border-color: #bd362f;
+	color: #FFFFFF !important;
+}
+
+.btn-inverse.disabled {
+	background-color: #222222 !important;
+	border-color: #222222;
+	color: #FFFFFF !important;
+}
+
+/* End disabled buttons */
+
+/* Modal block */
+
+.modal {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 7px;
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	width: 500px;
+}
+
+.absolute {
+	left: 50%;
+	margin-left: -250px;
+	position: absolute;
+	top: 150px;
+}
+
+.fixed {
+	left: 50%;
+	margin-left: -250px;
+	position: fixed;
+	top: 150px;
+}
+
+.modal-title h3 {
+	border-bottom: 1px solid #CCCCCC;
+	color: #333333;
+	font-size: 2.5em;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.close {
+	background: none;
+	border: none;
+	color: #333333;
+	cursor: pointer;
+	float: right;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 5px 5px 0 0;
+	opacity: 0.7;
+	outline: none;
+}
+
+.close:hover {
+	opacity: 0.3;
+}
+
+.close:active {
+	opacity: 0.5;
+}
+
+.modal-body {
+	margin: 20px 0;
+}
+
+.modal-body p {
+	color: #333333;
+	font-size: 1.6em;
+	padding: 0 15px;
+}
+
+.modal-footer {
+	background-color: #F5F5F5;
+	border-radius: 0 0 8px 8px;
+	padding: 15px;
+}
+
+.modal-footer .btn {
+	margin-left: 10px;
+}
